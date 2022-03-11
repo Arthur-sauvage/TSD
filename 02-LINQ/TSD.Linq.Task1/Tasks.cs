@@ -3,14 +3,19 @@ using TSD.Linq.Task1.Lib.Model;
 using System;
 using System.Collections.Generic;
 
-public class Task2_3_4{
+public class Tasks{
 
     public static void Main(string[] args){
-        Task2();
+   /*     Task2();
         Console.WriteLine();
         Task3();
         Console.WriteLine();
-        Task4();
+        Task4();*/
+
+        Console.WriteLine();
+        Task8();
+        Console.WriteLine();
+        Task9();
         
     }
 
@@ -88,6 +93,65 @@ public class Task2_3_4{
             }
             i++;
         }
+    }
+
+    public static void Task8(){
+
+        GoldClient goldClient = new GoldClient();
+
+        List<GoldPrice> gold_2019 = goldClient.GetGoldPrices(new DateTime(2019, 01, 01), new DateTime(2019, 12, 31)).GetAwaiter().GetResult();
+        List<GoldPrice> gold_2020 = goldClient.GetGoldPrices(new DateTime(2020, 01, 01), new DateTime(2020, 12, 31)).GetAwaiter().GetResult();
+        List<GoldPrice> gold_2021 = goldClient.GetGoldPrices(new DateTime(2021, 01, 01), new DateTime(2021, 12, 31)).GetAwaiter().GetResult();
+
+        var average2019 = (from gold in gold_2019
+                            select gold.Price).Average();
+        
+        var average2020 = (from gold in gold_2020
+                            select gold.Price).Average();
+
+        var average2021 = (from gold in gold_2021
+                            select gold.Price).Average();
+
+        Console.WriteLine("The averages of gold prices in 2019, 2020, 2021 are : ");
+        Console.WriteLine("2019 : " + average2019);
+        Console.WriteLine("2020 : " + average2020);
+        Console.WriteLine("2021 : " + average2021);
+    }
+
+    public static void Task9(){
+        GoldClient goldClient = new GoldClient();
+
+        List<GoldPrice> gold_2019 = goldClient.GetGoldPrices(new DateTime(2019, 01, 01), new DateTime(2019, 12, 31)).GetAwaiter().GetResult();
+        List<GoldPrice> gold_2020 = goldClient.GetGoldPrices(new DateTime(2020, 01, 01), new DateTime(2020, 12, 31)).GetAwaiter().GetResult();
+        List<GoldPrice> gold_2021 = goldClient.GetGoldPrices(new DateTime(2021, 01, 01), new DateTime(2021, 12, 31)).GetAwaiter().GetResult();
+    
+        gold_2019.AddRange(gold_2020);
+        gold_2019.AddRange(gold_2021);
+
+        var min = (from gold in gold_2019
+                    orderby gold.Price
+                    select gold).Take(1);
+
+        var max = (from gold in gold_2019
+                    orderby gold.Price descending
+                    select gold).Take(1);
+
+        foreach ( var m in min){
+            Console.WriteLine("Best day to buy Gold : Date : " + m.Date + " Price : " + m.Price);
+
+            foreach ( var ma in max){
+                Console.WriteLine("Best day to sell Gold : Date : " + ma.Date + " Price : " + ma.Price);
+
+                Console.WriteLine("The return on investment : " + (ma.Price/m.Price-1)*100 + " %");
+            }
+
+            
+
+
+        }
+
+        
+        
     }
 
     
