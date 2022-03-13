@@ -2,6 +2,7 @@
 using TSD.Linq.Task1.Lib.Model;
 using System;
 using System.Collections.Generic;
+using System.Xml.Linq;
 
 public class Tasks{
 
@@ -12,10 +13,15 @@ public class Tasks{
         Console.WriteLine();
         Task4();*/
 
-        Console.WriteLine();
+    /*    Console.WriteLine();
         Task8();
         Console.WriteLine();
-        Task9();
+        Task9();*/
+
+    //    Task12();
+
+        XDocument xdoc = XDocument.Load("C:\\Users\\Arthur Sauvage\\Documents\\Tp_Pologne\\TSD\\02-LINQ\\TSD.Linq.Task1\\List_Prices.xml");
+        Task13(xdoc);
         
     }
 
@@ -144,13 +150,46 @@ public class Tasks{
 
                 Console.WriteLine("The return on investment : " + (ma.Price/m.Price-1)*100 + " %");
             }
-
-            
-
-
         }
+    }
+
+    public static void Task12(){
+        GoldClient goldClient = new GoldClient();
+
+        List<GoldPrice> gold_2019 = goldClient.GetGoldPrices(new DateTime(2019, 01, 01), new DateTime(2019, 12, 31)).GetAwaiter().GetResult();
+        List<GoldPrice> gold_2020 = goldClient.GetGoldPrices(new DateTime(2020, 01, 01), new DateTime(2020, 12, 31)).GetAwaiter().GetResult();
+        List<GoldPrice> gold_2021 = goldClient.GetGoldPrices(new DateTime(2021, 01, 01), new DateTime(2021, 12, 31)).GetAwaiter().GetResult();
+
+        gold_2019.AddRange(gold_2020);
+        gold_2019.AddRange(gold_2021);
+
+        try
+        {
+            var xEle = new XElement("List_of_prices",
+                        from gold in gold_2019
+                        select new XElement("Gold",
+                                    new XElement("Date", gold.Date),
+                                    new XElement("Price", gold.Price)
+                                ));
 
         
+            xEle.Save("C:\\Users\\Arthur Sauvage\\Documents\\Tp_Pologne\\TSD\\02-LINQ\\TSD.Linq.Task1\\List_Prices.xml");
+            Console.WriteLine("Converted to XML");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        Console.ReadLine();
+    }
+
+    public static void Task13(XDocument xdoc){
+
+        foreach (var gold in xdoc.Root.Elements()){
+            Console.WriteLine("Date : {0}  Price : {1}",
+                                gold.Element("Date").Value,
+                                gold.Element("Price").Value);
+        }
         
     }
 
