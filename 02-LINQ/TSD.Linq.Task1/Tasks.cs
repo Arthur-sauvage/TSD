@@ -13,15 +13,15 @@ public class Tasks{
         Console.WriteLine();
         Task4();*/
 
-        Console.WriteLine();
+    /*    Console.WriteLine();
         Task8();
         Console.WriteLine();
-        Task9();
+        Task9();*/
 
-    //    Task12();
+        Task12();
 
-     /*   XDocument xdoc = XDocument.Load("C:\\Users\\Arthur Sauvage\\Documents\\Tp_Pologne\\TSD\\02-LINQ\\TSD.Linq.Task1\\List_Prices.xml");
-        Task13(xdoc);*/
+        XDocument xdoc = XDocument.Load("C:\\Users\\Arthur Sauvage\\Documents\\Tp_Pologne\\TSD\\02-LINQ\\TSD.Linq.Task1\\List_Prices.xml");
+        Task13(xdoc);
         
     }
 
