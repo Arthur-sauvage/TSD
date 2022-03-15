@@ -7,11 +7,11 @@ using System.Xml.Linq;
 public class Tasks{
 
     public static void Main(string[] args){
-   /*     Task2();
+        Task2();
         Console.WriteLine();
         Task3();
         Console.WriteLine();
-        Task4();*/
+        Task4();
 
     /*    Console.WriteLine();
         Task8();
@@ -20,8 +20,8 @@ public class Tasks{
 
     //    Task12();
 
-        XDocument xdoc = XDocument.Load("C:\\Users\\Arthur Sauvage\\Documents\\Tp_Pologne\\TSD\\02-LINQ\\TSD.Linq.Task1\\List_Prices.xml");
-        Task13(xdoc);
+     /*   XDocument xdoc = XDocument.Load("C:\\Users\\Arthur Sauvage\\Documents\\Tp_Pologne\\TSD\\02-LINQ\\TSD.Linq.Task1\\List_Prices.xml");
+        Task13(xdoc);*/
         
     }
 
