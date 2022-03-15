@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wWTxCPVL+egIM14WuWNmoPEIL8UASOaPqUMp446HgzuCkmGxo/bhCxhMdxQcAnxM/GVDtR9pnLKKBW7HdgLlcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arthur Sauvage\\Documents\\Tp_Pologne\\TSD\\02-LINQ\\TSD.Linq.Task1\\TSD.Linq.Task1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arthur Sauvage\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

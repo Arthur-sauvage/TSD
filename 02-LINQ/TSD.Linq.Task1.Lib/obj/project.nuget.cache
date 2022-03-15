@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/oxHoz2padwRJ9s3oWTc0OmdnJEGnx39UJan+mbyk3hbj4iZpDESXegCHcNQG+t2UYBuXoUk8fUBiA3mDKCCHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arthur Sauvage\\Documents\\Tp_Pologne\\TSD\\02-LINQ\\TSD.Linq.Task1.Lib\\TSD.Linq.Task1.Lib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arthur Sauvage\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Arthur Sauvage\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arthur Sauvage\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arthur Sauvage\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
