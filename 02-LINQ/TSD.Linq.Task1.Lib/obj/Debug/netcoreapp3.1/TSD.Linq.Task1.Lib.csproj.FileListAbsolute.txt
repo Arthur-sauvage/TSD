@@ -1,0 +1,10 @@
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\bin\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.deps.json
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\bin\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.dll
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\bin\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.pdb
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\obj\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.csproj.AssemblyReference.cache
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\obj\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\obj\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.AssemblyInfoInputs.cache
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\obj\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.AssemblyInfo.cs
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\obj\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.csproj.CoreCompileInputs.cache
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\obj\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.dll
+c:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task1.Lib\obj\Debug\netcoreapp3.1\TSD.Linq.Task1.Lib.pdb
