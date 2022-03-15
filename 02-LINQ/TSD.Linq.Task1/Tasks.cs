@@ -7,16 +7,16 @@ using System.Xml.Linq;
 public class Tasks{
 
     public static void Main(string[] args){
-        Task2();
+ /*       Task2();
         Console.WriteLine();
         Task3();
         Console.WriteLine();
-        Task4();
+        Task4();*/
 
-    /*    Console.WriteLine();
+        Console.WriteLine();
         Task8();
         Console.WriteLine();
-        Task9();*/
+        Task9();
 
     //    Task12();
 
