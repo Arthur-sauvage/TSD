@@ -1,0 +1,15 @@
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\bin\Debug\net6.0\TSD.Linq.Task2.exe
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\bin\Debug\net6.0\TSD.Linq.Task2.deps.json
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\bin\Debug\net6.0\TSD.Linq.Task2.runtimeconfig.json
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\bin\Debug\net6.0\TSD.Linq.Task2.dll
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\bin\Debug\net6.0\TSD.Linq.Task2.pdb
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\TSD.Linq.Task2.csproj.AssemblyReference.cache
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\TSD.Linq.Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\TSD.Linq.Task2.AssemblyInfoInputs.cache
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\TSD.Linq.Task2.AssemblyInfo.cs
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\TSD.Linq.Task2.csproj.CoreCompileInputs.cache
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\TSD.Linq.Task2.dll
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\refint\TSD.Linq.Task2.dll
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\TSD.Linq.Task2.pdb
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\TSD.Linq.Task2.genruntimeconfig.cache
+C:\Users\Arthur Sauvage\Documents\Tp_Pologne\TSD\02-LINQ\TSD.Linq.Task2\obj\Debug\net6.0\ref\TSD.Linq.Task2.dll
