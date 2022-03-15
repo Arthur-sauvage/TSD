@@ -53,6 +53,7 @@ public class Tasks{
     }
 
     public static void Task3(){
+        
         GoldClient goldClient = new GoldClient();
 
         List<GoldPrice> Goldjanuary2020 = goldClient.GetGoldPrices(new DateTime(2020, 01, 01), 
