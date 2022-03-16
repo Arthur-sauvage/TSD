@@ -25,7 +25,7 @@ public class GenericList<T>{
 public class Tasks{
 
     public static void Main(string[] args){
-        Console.WriteLine(Task2(2012));
+        Console.WriteLine("Is a Leap Year ? : " + Task2(2012));
 
         GenericList<int> list = new GenericList<int>();
 
@@ -43,17 +43,7 @@ public class Tasks{
     }
 
     public static bool Task2(int year){
-        Func<int, bool> leapYear = num => {
-            if (year % 4 != 0) {
-                return false;
-            } else if (year % 400 == 0) {
-                return true;
-            } else if (year % 100 == 0) {
-                return false;
-            } else {
-                return true;
-            }
-        };
+        Func<int, bool> leapYear = x => (x % 4 == 0 && x % 100 != 0 )|| (x % 400 == 0) ;
 
         return leapYear(year);
     }
