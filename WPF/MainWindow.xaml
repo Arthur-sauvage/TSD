@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
     
         <Grid>
             <Grid.RowDefinitions>
@@ -20,7 +21,7 @@
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
     
-    
+                
     
                 <ListBox 
                     Grid.Column="0"
@@ -58,6 +59,7 @@
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
+
                 <UserControl Grid.Column="1">
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -85,6 +87,14 @@
                         <TextBox Text="{Binding ElementName=listBooks, Path=SelectedItem.Author, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Height="20" Width="200"></TextBox>
                         <TextBox Text="{Binding ElementName=listBooks, Path=SelectedItem.Year, UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Height="20" Width="35"></TextBox>
                         <CheckBox IsChecked="{Binding ElementName=listBooks, Path=SelectedItem.IsRead, UpdateSourceTrigger=PropertyChanged}"   Grid.Row="4" Grid.Column="1" Content="IsRead" VerticalAlignment="Center" HorizontalAlignment="Left"></CheckBox>
+                        <ComboBox Name="BookFormat"
+                            
+                            Text="{Binding ElementName=listBooks, Path=SelectedItem.Format, UpdateSourceTrigger=PropertyChanged}"
+                            IsEditable="true"
+                            IsReadOnly="true" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left">
+                            <ComboBoxItem>PaperBack</ComboBoxItem>
+                            <ComboBoxItem>EBook</ComboBoxItem>
+                        </ComboBox>
                     </Grid>
                 </UserControl>
 
@@ -95,4 +105,6 @@
     
     
         </Grid>
+
+
 </Window>
